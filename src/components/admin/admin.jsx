@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 import LeftNav from '../leftNav/leftNav';
 import Header from '../header/header';
+import Contentent from '../../pages/content/content';
 
 import './admin.less';
 
@@ -30,8 +31,8 @@ export default class Admin extends Component {
             }}
           >
             <Switch>
-              {/* <Route path='/home' component={Home}/> */}
-              <Redirect to="/home" />
+              <Route path="/content" component={Contentent} />
+              <Redirect to="/content" />
             </Switch>
           </Content>
         </Layout>

@@ -3,14 +3,14 @@ const menuList = [{
     'key': '/home'
 }, {
     'title': "机器人设置",
-    'key': '/robot',
+    'key': '/content',
     'children': [{
         'title': "开启",
-        'key': '/robot/start',
+        'key': '/content/start',
     }]
 }, {
     'title': "权限",
-    'key': '/content'
+    'key': '/contenter'
 }];
 
 export default menuList;
