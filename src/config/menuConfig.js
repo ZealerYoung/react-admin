@@ -1,16 +1,25 @@
 const menuList = [{
     'title': "首页",
-    'key': '/home'
+    'key': '/index'
 }, {
     'title': "机器人设置",
-    'key': '/content',
+    'key': '/setting',
     'children': [{
         'title': "开启",
-        'key': '/content/start',
+        'key': '/setting/start',
     }]
 }, {
-    'title': "权限",
-    'key': '/contenter'
+    'title': "权限管理",
+    'key': '/perMissionManagemen',
+    'children': [{
+            'title': "角色管理",
+            'key': '/perMissionManagemen/roleManagement',
+        },
+        {
+            'title': "账号管理",
+            'key': '/perMissionManagemen/accountManagement',
+        }
+    ]
 }];
 
 export default menuList;

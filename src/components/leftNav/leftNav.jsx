@@ -8,7 +8,7 @@ const MenuItem = Menu.Item;
 
 class leftNav extends Component {
   state = {
-    currentPath: '123',
+    currentPath: '',
   };
   componentWillMount () {
     const menuList = this.renderMenu (menuConfig);
